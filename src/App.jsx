@@ -66,8 +66,9 @@ class App extends Component {
     return (
       <div>
         <nav className="navbar">
-        <a href="/" className="navbar-brand">Chatty</a>
-        <span className="usersLogin">User Count: {this.state.usersLoggedIn}</span>
+         <span className="logo"><img src="/styles/rt-rb.png" alt=""/></span>
+        <a href="/" className="navbar-brand">Chatter Box</a>
+        <span className="usersLogin">Current Chatters : {this.state.usersLoggedIn}</span>
         </nav>
 
         <MessageList messages ={this.state.messages}/>

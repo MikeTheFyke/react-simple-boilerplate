@@ -9,7 +9,7 @@
     }
 
     .chatbar {
-      background: tomato;
+      background: black;
       border-top: 1px solid black;
       bottom: 0;
       display: flex;
@@ -22,6 +22,7 @@
     .chatbar-message,
     .chatbar-username {
       border: 1px solid black;
+      border-radius:25px;
       display: block;
       height: 40px;
       line-height: 40px;
@@ -38,11 +39,14 @@
     }
 
     .message {
+      color:red;
       display: flex;
       padding: 5px;
     }
 
     .message.system {
+
+      color:black;
       font-style: italic;
       padding: 5px 20px;
     }
@@ -52,6 +56,10 @@
       overflow: hidden;
       margin: 5px;
       padding: 0 10px;
+    }
+
+    .message-username{
+      color:black;
     }
 
     .message-content {
@@ -64,24 +72,32 @@
     }
 
     .navbar {
-      background: tomato;
+      display: flex;
+      justify-content: space-between;
+      background: black;
       border-bottom: 1px solid black;
       height: 60px;
       left: 0;
-      padding: 0 10px;
+      padding: 5px 20px;
       position: fixed;
       right: 0;
       top: 0;
     }
 
+
     .navbar-brand {
-      color: inherit;
-      display: block;
-      float: left;
+      color: red;
       font-weight: 700;
-      font-size: 28px;
+      font-size: 5vw;
       height: 60px;
       line-height: 60px;
       padding: 0 10px;
       text-decoration: none;
+    }
+
+    .usersLogin {
+      color:red;
+      width:20%;
+      line-height: 60px;
+      font-size: 2vw;
     }
