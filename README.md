@@ -20,26 +20,26 @@ npm start
 To start your server use http://localhost:3000
 
 ### Dependencies
-Babel-core
-Babel-loader
-Babel-preset-es2015
-Babel-preset-react
-Css-loader
-Node-sass
-Sass-loader
-Sockjs-client
-Style-loader
-Webpack
-Webpack-dev-server
-React
-React-dom
+* Babel-core
+* Babel-loader
+* Babel-preset-es2015
+* Babel-preset-react
+* CSS-loader
+* Node-sass
+* Sass-loader
+* Sockjs-client
+* Style-loader
+* Webpack
+* Webpack-dev-server
+* React
+* React-dom
 
 Install the listed dependencies and start the chatty server
 
 ### Dependencies
-Express
-WS
-UUID
+* Express
+* WS
+* UUID
 
 npm install
 npm start
