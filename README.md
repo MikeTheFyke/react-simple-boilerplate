@@ -1,45 +1,48 @@
-React Boilerplate
-=====================
+Chatter Box
 
-A minimal and light dev environment for ReactJS.
+Chatter Box is a client-side single-page application that allows multiple users to chat with each other. Users are able to set their username and chat in real-time through through the Websocket server.
 
-### Usage
+!["Screenshot of First Connection"](https://github.com/MikeTheFyke/react-simple-boilerplate/blob/master/docs/01%20Connection.png)
 
-Clone the boilerplate and create your own git repo.
+!["Screenshot of Change User Name"](https://github.com/MikeTheFyke/react-simple-boilerplate/blob/master/docs/02%20Changed-Name.png)
 
-```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-cd react-simple-boilerplate
-git remote rm origin
-git remote add origin [YOUR NEW REPOSITORY]
-# Manually update your package.json file
-```
+!["Screenshot of Sent message"](https://github.com/MikeTheFyke/react-simple-boilerplate/blob/master/docs/03%20Sent-Message.png)
 
-Install the dependencies and start the server.
+!["Screenshot of Second Chatter Login"](https://github.com/MikeTheFyke/react-simple-boilerplate/blob/master/docs/04%20Second-Chatter.png)
 
-```
+App Usage
+Git clone this repository to your local machine.
+
+Install the listed dependencies and start the server.
+
 npm install
 npm start
-open http://localhost:3000
-```
-
-### Static Files
-
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
-
-### Linting
-
-This boilerplate project includes React ESLint configuration.
-
-```
-npm run lint
-```
+To start your server use http://localhost:3000
 
 ### Dependencies
+Babel-core
+Babel-loader
+Babel-preset-es2015
+Babel-preset-react
+Css-loader
+Node-sass
+Sass-loader
+Sockjs-client
+Style-loader
+Webpack
+Webpack-dev-server
+React
+React-dom
 
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+Install the listed dependencies and start the chatty server
+
+### Dependencies
+Express
+WS
+UUID
+
+npm install
+npm start
+To start the websocket server on http://localhost:3001
+
+And lastly have fun :)
